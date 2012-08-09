@@ -279,6 +279,9 @@ en:
       submit_project: submit
       profile: "my profile"
       account: "my account"
+    recommended_header:
+      sugest_for_you: "suggested for you"
+      highlight_project: "featured project"
     user:
       logout: Logout
       my_credits: "My credit"
@@ -335,9 +338,6 @@ en:
       successful: funded
       waiting_confirmation: waiting
   projects:
-    recommended_header:
-      sugest_for_you: "suggested for you"
-      highlight_project: "featured project"
     box:
       by: by
     admin_fields:
@@ -359,7 +359,11 @@ en:
       no_reward: "This backer has not picked a reward"
     backers:
       checkout:
+        moip_error: "Ooops. There was an error while sending your payment to MoIP. Please try again."
         no_credits: "You don't have enough credits to back this project."
+        paypal_cancel: "Your PayPal payment was canceled. Please try again."
+        paypal_description: "Back project"
+        paypal_error: "Ooops. There was an error while sending your payment to PayPal. Please try again."
         success: "Your back was successfully made. Thanks a lot!"
       new:
         cannot_back: "It's not possible to back this project right now. Please, back other projects."
@@ -377,7 +381,7 @@ en:
           important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + R$0,60 per transaction.</p>"
           submit: "Proceed to PayPal's checkout"
           title: "Want to make an international payment?"
-        review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward:"
+        review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
         review_without_reward_html: "You will back with <strong>%{value}</strong> but you don't want any reward for that."
         submit:
           credits: "Confirm backing with credits"
@@ -532,17 +536,17 @@ en:
     failure:
       error: "There was an error while loggin in. Please try again."
   site:
-    host: catarse.me
-    base_url: "http://catarse.me"
+    host: seedstarter.herokuapp.com
+    base_url: "http://seedstarter.herokuapp.com"
     blog: "http://blog.catarse.me/"
     email:
-      contact: contato@catarse.me
-      payments: financeiro@catarse.me
-      projects: projetos@catarse.me
-      system: system@catarse.me
+      contact: seedstarter.maisa@gmail.com
+      payments: seedstarter.maisa@gmail.com
+      projects: seedstarter.maisa@gmail.com
+      system: seedstarter.maisa@gmail.com
     facebook: "http://www.facebook.com/Catarse.me"
-    name: Catarse
-    title: "The first crowdfunding platform from Brazil"
+    name: Seedstarter
+    title: "Testing title change"
     twitter: Catarse_
   static:
     faq:
@@ -565,17 +569,12 @@ en:
     no_name: Unnamed
   users:
     show:
-      attention: Attention
       tabs:
         backed_projects: "Backed projects"
         created_projects: "Created projects"
         comments: Comments
         credits: Credits
         settings: Settings
-      user_social:
-        email: "Send me an email"
-        facebook: "Profile on facebook"
-        twitter: "Profile on twiiter"
     backs:
       anonymous: "Anonymous back."
       no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
@@ -621,49 +620,3 @@ en:
       weblink: "View on the web"
       whitelist: "Add contact"
       whitelist_long: "Add our email to your contacts"
-  notifications:
-    backers:
-      to_backer:
-        subject: "Thank you! Your back for %{project} has been confirmed!"
-        text: "Success! <br />Your back has just been confirmed.<br /><br />Check: %{backer_name}<br />%{backer_value}<br />%{reward}<br /><br />%{project_name}"
-    updates:
-      subject: "If the league! Update of %{project_name} by %{project_owner}: %{update_title}"
-      text: "%{update_title}<br />%{update_text}<br />Comments? Send it on in the project page: <a href='%{project_link}'>%{project_name}</a>."
-  admin:
-    users:
-      title: "Management backers"
-      menu: Backers
-      credits: Credits
-      credits_view: "Calculated credits"
-      id: Id
-      key: Key
-      submit: Search
-      has_credits_difference: "Discrepancy in credits"
-      total_backed: backed
-      total_backers: backers
-      total_backs: backs
-      total_users: users
-      total_credits: credits
-      total_credits_view: "calculated credits"
-      user: User
-      value: Value
-    backers:
-      title: "Backers management"
-      menu: Backs
-      anonymous: Anonymous?
-      confirmed: Confirmed?
-      credits: "Used credits?"
-      id: Id
-      key: Key
-      no_backers: "No backers found."
-      project: Project
-      refunded: Refunded?
-      requested_refund: "Requested refund?"
-      reward: Reward
-      submit: Search
-      total_backed: backed
-      total_backers: backers
-      total_backs: backs
-      total_users: Users
-      user: User
-      value: Value
