@@ -404,8 +404,8 @@ en:
       rewards_title: Rewards
       submit: "Submit project"
     index_header:
-      subtitle_html: "Fund projects collaboratively and become part of something bigger.<br/>Promote a collective catharsis! You're the missing part in this story."
-      title: "Make the projects you believe in happen"
+      subtitle_html: "Help fund science research projects collaboratively and become part of something bigger."
+      title: "Fund research for a better tomorrow."
     new:
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
       title: "Submit your project"
@@ -490,7 +490,7 @@ en:
       links: "Where can we find more about you and your project?"
       links_hint: "Leave us as many links as you have, so we can get to know your work and your project better. Doesn't have to be something formal or fancy, just a few useful links."
       video: "Have you already prepared a video for your project?"
-      video_hint: "A vimeo link. If you have not already prepared one we will guide you through the process after submitting your application. This is the most important part. You video must be capturing, motivating, passionate and heartfelt. You must create trust and a personal connection:<br><br>Include you and your team talking directly to the camera to connect with people<br>Tell your story — who you are, where you are from, why this project is important, what you will get out of it, what they will get out of supporting you, and where the funding will go<br>Give evidence that you are capable of carrying out the research<br>Make it 3 to 5 minutes long<br>Be creative and fun so your video has a higher chance of going viral<br>"
+      video_hint: "A vimeo link. If you have not already prepared one we will guide you through the process after submitting your application. This is the most important part. You video must be capturing, motivating, passionate and heartfelt. You must create trust and a personal connection:<br/><br/>Include you and your team talking directly to the camera to connect with people<br/>Tell your story — who you are, where you are from, why this project is important, what you will get out of it, what they will get out of supporting you, and where the funding will go<br>Give evidence that you are capable of carrying out the research<br/>Make it 3 to 5 minutes long<br/>Be creative and fun so your video has a higher chance of going viral"
       twitter: "Have twitter account?"
       facebook: "Have facebook account?"
       blog: "Have a Research Gate account?"
