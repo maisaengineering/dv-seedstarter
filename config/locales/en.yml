@@ -15,17 +15,17 @@ en:
     goal:
       subtitle: "total of %{total}"
   project_by: "project by"
-  tell_about_this_back: "Tell the world about your support!"
-  share_my_backs: "See the projects that i support in Catarse!"
+  tell_about_this_back: "Share your support with the world!"
+  share_my_backs: "See the projects that I support on Seedstarter!"
   tell_about_this_project: "Tell the world about your project!"
-  share_my_projects: "See my created projects in Catarse!"
+  share_my_projects: "See my created projects in Seedstarter!"
   count_backed_projects: "backed %{total} projects"
   footer:
     titles:
       info: "Useful Information"
-      opendata: "nice statistics"
-      social: "like the catarse?"
-      newsletter: "receive our newslatter"
+      opendata: "Some statistics"
+      social: "Liked Seedstarter?"
+      newsletter: "Get our newsletter"
     stats:
       backers: Backers
       backs: Backs
@@ -47,10 +47,10 @@ en:
   sidebar:
     titles:
       blog: blog
-      facebook: "have enjoyed our face?"
-      twitter: "@catarse_"
+      facebook: "Liked us yet?"
+      twitter: "@seedstarteraus_"
       newsletter: "want to receive news?"
-      faq: "have any doubt?"
+      faq: "Seedstarter in 60 seconds"
       schedule: calendar
     buttons:
       newsletter: submit
@@ -264,8 +264,8 @@ en:
   found_plural: Found
   found_singular: Found
   here: here
-  i_backed: "I backed the project %{name} on @Catarse_"
-  i_just_backed: "I just backed the project %{name} on @Catarse_"
+  i_backed: "I backed the project %{name} on @seedstarteraus_"
+  i_just_backed: "I just backed the project %{name} on @seedstarteraus_"
   layouts:
     login:
       login_with_facebook: "sign in with your facebook account"
@@ -315,19 +315,19 @@ en:
       title: "Thank you"
   project:
     start:
-      email_subject: "Your project has been received by Catarse's team"
-      email_text: "Thanks for trusting your project to Catarse :)<br><br>We know that you expect a quick reply but, to be quite frank, we take up to 4 days to resnpond, ok? That is because we have a small team working on several projects. Note that the reply can come sooner, so keep atention to your inbox.<br><br>Meanwhile it is worth to get to know the projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you like any of them- back it! This is the way to show support for the crowdfunding culture in Brazil and to feed the ecosystem that keeps growing around Catarse.<br><br>Besides that, you will get some inspiration for your own project...<br><br>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and get some deeper knowledge about Catarse reading the posts in our <a href='%{blog}' style='color: #E75297 !important;'>blog</a>.<br><br>If you have any doubt, send an email to: %{email}"
-      notification_text: "Your project has been received by Catarse's team"
+      email_subject: "Your project has been received by Seedstarter's team"
+      email_text: "Thanks for submitting your project to Seedstarter.<br><br>We know that you expect a quick reply, but we can take up to 4 days to respond to project submissions, as we have a small team working on several projects. Note that the reply can come sooner, so keep an eye on your inbox.<br><br>Meanwhile, why not get to know other projects that are online (<a href='%{explore_link}' style='color: #E75297 !important;'>%{explore_link}</a>) and - if you believe in the work fellow researchers are doing - support them! This is the way to show support for the crowdfunding culture in Australia and to feed the science research funding ecosystem.<br><br>>Stay tuned for updates in <a href='%{facebook}' style='color: #E75297 !important;'>Facebook</a> and if you have any questions, email us at %{email}"
+      notification_text: "Your project has been received by Seedstarter's team"
     finish:
       successful:
-        email_subject: "Hooray! The project you backed was successful on Catarse!"
-        email_text: "The project %{project_link}, which you backed, was successfuly funded on Catarse! Time to celebrate :D<br><br>Thank you very much, from the heart, for your support! Without you this would never have been possible. Soon, %{user_link} will contact you to deliver your reward. Meanwhile, share with everybody this success!"
-        facebook_text: "Hooray! The project '%{name}', which I backed, was successful on Catarse!"
+        email_subject: "Hooray! The project you backed was successful on Seedstarter!"
+        mail_text: "The project %{project_link}, which you backed, was successfuly funded on Seedstarter! Time to celebrate!<br><br>Thank you very much for your support - you're helping to build a better tomorrow through Seedstarter. Soon, %{user_link} will contact you to deliver your reward."
+        facebook_text: "The project '%{name}', which I backed, was successful on Seedstarter!"
         notification_text: "Hooray! The project %{link} that you backed was successful! Spread the word!"
         reward_notification_text: "Soon, %{link} will contact you to deliver your reward. Enjoy!"
-        twitter_text: "Hooray! The project '%{name}', which I backed, was successful on @Catarse_! %{short_url}"
+        twitter_text: "The project '%{name}', which I backed, was successful on @seedstarteraus_! %{short_url}"
       unsuccessful:
-        email_subject: "The project you backed wasn't funded on Catarse."
+        email_subject: "The project you backed wasn't funded on Seedstarter."
         email_text: "The project %{project_link}, that you backed, was not funded. Maybe next time!<br><br>Because of this, you received <strong>%{value}</strong> in credits to back other projects. If you prefer, you can ask for a refund %{credits_link}."
         notification_text: "You received %{value} in credits to back other projects. If you prefer, you can request a refund %{link}."
         unsuccessful_text: "The project %{link} that you backed wasn't funded. Maybe next time!"
@@ -396,16 +396,16 @@ en:
       success: "Your project was successfully created! We'll soon contact you. Thanks a lot!"
     form:
       add_reward: "Add reward"
-      important_html: "Please notice that Catarse will charge 7.5% if your project is successful, and our payment gateways (MoIP and Paypal) charge a fee that varies, usually, from 4% to 5% per transaction. Add this values to your budget in order to execute your project with no surprises."
+      important_html: "Please notice that Seedstarter will charge 7.5% if your project is successful, and our payment gateways (MoIP and Paypal) charge a fee that varies, usually, from 4% to 5% per transaction. Add these values to your budget so that there are no surprises through your crowdfunding campaign."
       project_warning:
         content_html: "Want to have your project selected? Don't forget to read %{link}."
         help_link: "our guide"
-      rewards_description: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_description: "Seed Starter is all about getting the community involved and interested in science. The best rewards help your backers feel like there are being brought along on the research journey with you and are part of your team. Examples of good rewards include: being acknowledged in publications, naming rights to new discoveries, a personal talk or dinner with the research team, opportunities to be involved in the research (field trips), souvenirs from the field, large photographs/artist renditions of the subject matter, or quirky gifts related to the topic (toys, books etc). Be creative and add a personal touch!"
       rewards_title: Rewards
       submit: "Submit project"
     index_header:
-      subtitle_html: "Fund projects collaboratively and become part of something bigger.<br/>Promote a collective catharsis! You're the missing part in this story."
-      title: "Make the projects you believe in happen"
+      subtitle_html: "Help fund science research projects collaboratively and become part of something bigger."
+      title: "Fund research for a better tomorrow."
     new:
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
       title: "Submit your project"
@@ -466,8 +466,8 @@ en:
     send_mail:
       success: "Your project was successfully sent! We'll soon contact you. Thanks a lot!"
     show:
-      rejected: "This project was not selected to participate on Catarse. Maybe next time! :)"
-      waiting: "This project is waiting for approval and soon we'll know if it will go online on Catarse ;)"
+      rejected: "This project was not selected to participate on Seedstarter. Maybe next time!"
+      waiting: "This project is waiting for approval and soon we'll know if it will go online on Seedstarter."
       about_title: "About this project"
       menu:
         about: About
@@ -482,30 +482,30 @@ en:
         take_a_look: "Check out the project"
         title: "Be part of it and share this project"
     start:
-      about: "Describe your project and how much do you need"
+      about: "Describe your project and how much funding you are seeking"
       category: "Project category"
       how_much_you_need: "How much do you want to raise?"
-      about_hint: "Tell us a little about what you want to do, how much you need and what for. Be brief and punctual, but don't forget to give the readers something that moves them. After all, it's your creation and they need to see your passion taking place!"
+      about_hint: "Tell us a little about your proposed project, how much you need and what for. Be brief and succinct, but make sure you highlight how problem the effects society, how big the problem is, and the what impact your research will have toward a solution. Remember to give the readers something that motivates and moves them. Its your research and you need to resonate your passion for the topic so the readers can to become passionate about the cause!"
       contact: "Leave us your email address so we can contact you"
       links: "Where can we find more about you and your project?"
       links_hint: "Leave us as many links as you have, so we can get to know your work and your project better. Doesn't have to be something formal or fancy, just a few useful links."
-      video: "Your project already have a video?"
-      video_hint: "A vimeo link"
+      video: "Have you already prepared a video for your project?"
+      video_hint: "A vimeo link. If you have not already prepared one we will guide you through the process after submitting your application. This is the most important part. You video must be capturing, motivating, passionate and heartfelt. You must create trust and a personal connection:<br/><br/>Include you and your team talking directly to the camera to connect with people<br/>Tell your story — who you are, where you are from, why this project is important, what you will get out of it, what they will get out of supporting you, and where the funding will go<br>Give evidence that you are capable of carrying out the research<br/>Make it 3 to 5 minutes long<br/>Be creative and fun so your video has a higher chance of going viral"
       twitter: "Have twitter account?"
       facebook: "Have facebook account?"
-      blog: "Have a blog about the project?"
-      know_us_via: "How did you meet Catarse?"
-      how_works: "How to mobilize backers to raise $ needed for enforcement?"
+      blog: "Have a Research Gate account?"
+      know_us_via: "How did you meet Seedstarter?"
+      how_works: "How to get the funding support you need"
       project_warning:
         content_html: "Want to have your project selected? Don't forget to read %{link}."
         help_link: "our guide"
       rewards: "What rewards do you want to offer?"
-      rewards_hint: "We believe that the best way to inspire people to back a project is offering excelent – and creative! – rewards. Everybody loves limited editions, unique things and joyfull experiences (parties, candies, balloon traveling!). Spend some time devising creative rewards and people will be interested."
+      rewards_hint: "Seed Starter is all about getting the community involved and interested in science. The best rewards help your backers feel like there are being brought along on the research journey with you and are part of your team. Examples of good rewards include: being acknowledged in publications, naming rights to new discoveries, a personal talk or dinner with the research team, opportunities to be involved in the research (field trips), souvenirs from the field, large photographs/artist renditions of the subject matter, or quirky gifts related to the topic (toys, books etc). Be creative and add a personal touch!"
       submit: "Submit the project"
       subtitle: "The time to make it happen is now! We really want to know what you're up to..."
       title: "Submit your project"
     twitter:
-      take_a_look: "Check out the project %{name} on @Catarse_"
+      take_a_look: "Check out the project %{name} on @seedstarteraus_"
     video_embed:
       a_project_by_html: "A project by %{link} on"
   projects_mailer:
@@ -544,18 +544,18 @@ en:
       payments: seedstarter.maisa@gmail.com
       projects: seedstarter.maisa@gmail.com
       system: seedstarter.maisa@gmail.com
-    facebook: "http://www.facebook.com/Catarse.me"
+    facebook: "http://www.facebook.com/seedstarteraus"
     name: Seedstarter
-    title: "Testing title change"
-    twitter: Catarse_
+    title: "Seedstarter"
+    twitter: seedstarteraus
   static:
     faq:
       title: "Frequent asked questions"
     guidelines:
-      accept: "I have read and understood how Catarse works."
+      accept: "I have read and understood how Seedstarter works."
       submit: "I want to submit my project"
-      subtitle: "Before submitting your project, learn a little about how Catarse works."
-      title: "How does Catarse work?"
+      subtitle: "Before submitting your project, learn a little about how Seedstarter works."
+      title: "How does Seedstarter work?"
     privacy:
       title: "Privacy Policy"
     terms:
@@ -577,7 +577,7 @@ en:
         settings: Settings
     backs:
       anonymous: "Anonymous back."
-      no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time! :D"
+      no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time!"
       no_backs_current_user_html: "You haven't backed any project yet. What about <a href=\"/\">starting now</a>?"
       no_reward: "You didn't pick a reward"
       title: "Projects %{name} has backed"
@@ -592,18 +592,18 @@ en:
       other_link: "another internet page"
       change_password: "Change my password"
       current_password_hint: "<i>We need your current password to confirm your changes.</i>"
-      email_hint: "Your email will only be used for communications from Catarse and from the projects you back. It won't be visible in your profile. When you back a project, we will give your email to the project owner so he can provide your rewards."
+      email_hint: "Your email will only be used for communications from Seedstarter and from the projects you back. It won't be visible in your profile. When you back a project, we will give your email to the project owner so he or she can provide your rewards."
       email_tooltip: "Click here to fill your email..."
-      gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image and works for other sites as well ;)"
+      gravatar_hint_html: "Want to change your picture? Use %{link} with your email. It's as simple as uploading an image."
       my_data: "My profile"
-      newsletter: "I want to receive news from Catarse via email"
+      newsletter: "I want to receive news from Seedstarter via email"
       password_hint: "<i>Leave blank if you don't want to change it.</i>"
     header:
       bio_tooltip: "Click here to write about you..."
       name_tooltip: "Click here to fill your name..."
     projects:
-      no_projects: "%{name} haven't started any project on Catarse yet. We wonder if inspiration will hit one of these days!"
-      no_projects_current_user_html: "You haven't submitted any project to Catarse yet. Let the inspiration flow and %{link} to start!"
+      no_projects: "%{name} haven't started any project on Seedstarter"
+      no_projects_current_user_html: "You haven't submitted any project to Seedstarter yet."
       title: "%{name}'s projects"
       title_current_user: "My projects"
   users_mailer:
@@ -611,10 +611,11 @@ en:
       alt: "You must enable images in order to correctly view this message."
       forward: "Foward to your friends"
       hello: Hi
-      intro: "You are receiving this message because you signed up on Catarse"
+      intro: "You are receiving this message because you signed up on Seedstarter"
       mailee: "Message delivered by Mailee.me"
-      salutation: "Big hugs,"
-      signature: "Catarse's Team"
+      salutation: "Thanks,"
+      signature: "Seedstarter's Team"
+      unsubscribe: Unsubscribe
       unsubscribe: Unsubscribe
       unsubscribe_long: "If you don't want to receive these emails"
       weblink: "View on the web"
