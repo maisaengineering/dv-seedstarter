@@ -82,10 +82,10 @@ Factory.define :projects_curated_page do |f|
 end
 
 Factory.define :institutional_video do |f|
-  f.title "My title"
-  f.description "Some Description"
-  f.video_url "http://vimeo.com/35492726"
-  f.visible false
+  f.title "Seedstarter in 60 seconds"
+  f.description "Check out how it works"
+  f.video_url "http://vimeo.com/4412391"
+  f.visible true
 end
 
 Factory.define :update do |f|
