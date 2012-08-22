@@ -38,18 +38,6 @@
 
     .sidebar
       .content
-        .blog
-          h3= t('sidebar.titles.blog')
-          ul.posts
-            - @blog_posts.each do |post|
-              li
-                h2
-                  = link_to post.url, target: '__blank' do
-                    /= image_tag("catarse/post_title_image.png")
-                    = truncate(post.title, length: 80)
-                p.author= "#{t('projects.box.by')} #{post.author}"
-                = link_to post.url, target: '__blank', class: 'resume' do
-                  = truncate(post.summary, length: 130)
 
         .facebook
           h3= t('sidebar.titles.facebook')
