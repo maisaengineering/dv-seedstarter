@@ -71,7 +71,7 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
             h3.newsletter= t('footer.titles.newsletter')
             = form_tag 'http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e', id: 'mailee-form', method: 'post' do
               = text_field_tag 'EMAIL', nil, placeholder: 'email@email.com', label: 'email'
-              = submit_tag 'assinar'
+              = submit_tag 'Submit'
           .clearfix
     #logos
       .multide
