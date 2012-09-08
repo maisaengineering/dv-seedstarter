@@ -26,15 +26,15 @@ class PaymentDetail < ActiveRecord::Base
   end
 
   def display_service_tax
-    number_to_currency service_tax_amount, :unit => "R$", :precision => 2, :delimiter => '.'
+    number_to_currency service_tax_amount, :unit => "A$", :precision => 2, :delimiter => '.'
   end
 
   def display_net_amount
-    number_to_currency net_amount, :unit => "R$", :precision => 2, :delimiter => '.'
+    number_to_currency net_amount, :unit => "A$", :precision => 2, :delimiter => '.'
   end
 
   def display_total_amount
-    number_to_currency total_amount, :unit => "R$", :precision => 2, :delimiter => '.'
+    number_to_currency total_amount, :unit => "A$", :precision => 2, :delimiter => '.'
   end
 
   def display_payment_date

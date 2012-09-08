@@ -38,22 +38,10 @@
 
     .sidebar
       .content
-        .blog
-          h3= t('sidebar.titles.blog')
-          ul.posts
-            - @blog_posts.each do |post|
-              li
-                h2
-                  = link_to post.url, target: '__blank' do
-                    /= image_tag("catarse/post_title_image.png")
-                    = truncate(post.title, length: 80)
-                p.author= "#{t('projects.box.by')} #{post.author}"
-                = link_to post.url, target: '__blank', class: 'resume' do
-                  = truncate(post.summary, length: 130)
 
         .facebook
           h3= t('sidebar.titles.facebook')
-          .fb-like data-href="http://facebook.com/catarse.me" data-send="false" data-width="171" data-show-faces="true"
+          .fb-like data-href="http://facebook.com/seedstarteraus" data-send="false" data-width="171" data-show-faces="true"
         .twitter
           h3= t('sidebar.titles.twitter')
           - @last_tweets.each do |tweet|
@@ -67,17 +55,6 @@
         .faq
           h3= t('sidebar.titles.faq')
           = link_to image_tag('catarse/faq_video.png'), '#'
-        .schedule
-          h3= t('sidebar.titles.schedule')
-          ul.events
-            - @events.each do |event|
-              li
-                = link_to event['htmlLink'] do
-                  h4
-                    | #{event['start']['dateTime'].to_date.strftime('%d')}
-                    br/
-                    span= event['start']['dateTime'].to_date.strftime('%b').upcase
-                  p= (event['description'].present? ? event['description'] : event['title'])
           .clearfix
 
     .clearfix
