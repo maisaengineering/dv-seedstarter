@@ -4,5 +4,5 @@ require File.expand_path('../application', __FILE__)
 # Initialize the rails application
 Catarse::Application.initialize!
 
-ActiveMerchant::Billing::PaypalExpressGateway.default_currency = 'BRL'
+ActiveMerchant::Billing::PaypalExpressGateway.default_currency = 'AUD'
 

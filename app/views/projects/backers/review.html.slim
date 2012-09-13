@@ -36,7 +36,8 @@
               = form.input :phone_number, :as => :string, :input_html => {:autocomplete => 'off'}
               = form.input :address_street, :as => :string                            
               = form.input :address_city, :as => :string
-              = form.input :address_state, :as => :select, :collection => State.array
+              //= form.input :address_state, :as => :select, :collection => State.array
+              = form.input :address_state, :as => :select, :collection => ['Outside Australia','ACT','NT','QLD','SA','TAS','VIC','WA']
               = form.input :address_zip_code, :as => :string, :input_html => {:autocomplete => 'off'}
               //= form.input :address_number, :as => :string
               //= form.input :address_complement, :required => false, :as => :string
