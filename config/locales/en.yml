@@ -308,9 +308,9 @@ en:
   payment_stream:
     thank_you:
       error: "Ooops. You can only access this page after backing a project."
-      header_subtitle: "Without you maybe this project wouldn't stand a chance. Welcome to the team!"
-      header_title: "Thank you! :D"
-      text_subtitle: "Tell everyone what you just did"
+      header_subtitle: "It's people like you that keep the Seedstarter ecosystem going. Welcome to the team!"
+      header_title: "Thank you!"
+      text_subtitle: "Share with the world!"
       text_title_html: "You are now part of the group that does everything to make %{link} happen."
       title: "Thank you"
   project:
@@ -391,7 +391,7 @@ en:
         choose_payment: "How do you want to pay?"
         choose_credit_card: "Credit Card"
         choose_boleto: "Billet Banking"
-        you_are_about_html: "You are about to become part of the group that does everything to make %{link} happen."
+        you_are_about_html: "You are about to become part of the %{link} story."
     create:
       success: "Your project was successfully created! We'll soon contact you. Thanks a lot!"
     form:

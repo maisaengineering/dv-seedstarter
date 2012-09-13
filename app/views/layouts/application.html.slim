@@ -68,18 +68,8 @@ html lang="#{I18n.locale}" xmlns:fb="http://ogp.me/ns/fb#"
               = link_to "Follow @#{t('site.twitter')}", "http://twitter.com/#{t('site.twitter')}", :class => 'twitter-follow-button', :"data-button"=>"blue", :"data-text-color" => "#ffffff", :"data-link-color"=>"#fffffff", :"data-width" => "224px"
             .facebook
               .fb-like data-href="http://facebook.com/seedstarteraus" data-send="false" data-width="171" data-show-faces="true"
-            h3.newsletter= t('footer.titles.newsletter')
-            = form_tag 'http://catarse.us5.list-manage.com/subscribe/post?u=ebfcd0d16dbb0001a0bea3639&amp;id=149c39709e', id: 'mailee-form', method: 'post' do
-              = text_field_tag 'EMAIL', nil, placeholder: 'email@email.com', label: 'email'
-              = submit_tag 'Submit'
           .clearfix
     #logos
       .multide
-        = link_to '#' do
-          = image_tag('catarse/multide_logo55x36.png', :target => '_blank', :alt => 'MULTIDE')
-      .comum
-        = link_to 'http://comum.cc', :target => '_blank' do
-          = image_tag('catarse/comum_logo127x27.png', :alt => 'COMUM')
-      .power
-        = link_to 'http://engage.is', :target => '_blank' do
-          = image_tag('catarse/power_logo200x43.png', :alt => 'POWER TO THE CROWD')
+        = link_to 'http://www.facebook.com/ScienceAlert' do
+          = image_tag('catarse/sciencealert_logo.png', :target => '_blank', :alt => 'Science Alert')
