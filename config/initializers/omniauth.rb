@@ -10,7 +10,7 @@ Rails.application.config.middleware.use OmniAuth::Builder do
       # This hack can be removed after the upgrade to omniauth 2.0
       # Where every provider will accept the options hash
       unless p.scope.nil?
-        provider p.strategy, p.key, p.secret, {:scope => p.scope}
+        provider p.strategy, p.key, p.secret, {:scope =>Rails.application.config.fb_scopes, :client_options => { :ssl => { :ca_file => "#{Rails.root}/config/ca-bundle.crt" } }}
       else
         provider p.strategy, p.key, p.secret
       end

@@ -40,6 +40,8 @@ Catarse::Application.routes.draw do
   match "/credits" => "credits#index", :as => :credits
 
   post "/auth" => "sessions#auth", :as => :auth
+  get "/auth" => "sessions#auth", :as => :auth
+  get "/post_auth" => "sessions#post_auth", :as => :post_auth
   match "/auth/:provider/callback" => "sessions#create"
   match "/auth/failure" => "sessions#failure"
   match "/logout" => "sessions#destroy", :as => :logout
