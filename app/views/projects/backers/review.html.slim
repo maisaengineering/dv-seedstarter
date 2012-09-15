@@ -4,10 +4,10 @@
       .project_info
         = image_tag @project.display_image, :id => 'project_image', :alt => @project.name, :width => '250px'
         h1= t('.you_are_about_html', :link => link_to(@project.name, project_path(@project)))
-        #review_text
+        #review_text          
           - if @backer.reward
             .review_content
-              = t('.review_with_reward_html', :value => @backer.display_value)
+              = t('.review_with_reward_html', :value => @backer.display_value, :reward => '+XXXXXXX+')
             .reward
               = @backer.reward.description
               .icon-rewards
