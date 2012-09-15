@@ -65,12 +65,5 @@
                   = image_tag 'catarse/paypal-choice.png' 
                   .clearfix
                 .or
-                  span= t('or')
-              - if defined?(CatarseMoip)        
-                .boleto
-                  span= t('.choose_boleto')
-                  = link_to 'javascript:void(0);', :"data-payment_method_url" => catarse_moip.pay_payment_moip_path(@backer), :method => :get, :class => 'payment_link' do
-                    p= t('Pagar com')
-                    = image_tag 'catarse/icon-moip.png', :class => 'boleto_icon'
-                  = image_tag 'catarse/moip-choice.png'
+                  
     .clearfix
