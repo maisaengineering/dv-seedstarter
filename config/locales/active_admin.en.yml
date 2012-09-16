@@ -4,9 +4,9 @@ en:
     dashboard_welcome:
       welcome: "Welcome to active admin. This page is the default panel."
       call_to_action: "To add sections to the panel, check 'app/admin/dashboards.rb'"
-    view: Visualizar
-    edit: Editar
-    delete: Remover
+    view: View
+    edit: Edit
+    delete: Remove
     delete_confirmation: "Are you sure you want to remove this item?"
     new_model: "New %{model}"
     create_model: "New %{model}"
@@ -14,32 +14,32 @@ en:
     update_model: "Update %{model}"
     delete_model: "Remove %{model}"
     details: "Details of %{model}"
-    cancel: Cancelar
-    empty: Vazio
-    previous: Anterior
-    next: Próximo
+    cancel: Cancel
+    empty: Empty
+    previous: Previos
+    next: Next
     download: "Download:"
     has_many_new: "Add new %{model}"
-    has_many_delete: Remover
-    filter: Filtrar
+    has_many_delete: Remove
+    filter: Filter
     clear_filters: "Clear filters"
     search_field: "Search %{field}"
     equal_to: "Equals"
     greater_than: "Greater than"
     less_than: "Less than"
     main_content: "Please implement %{model}#main_content to display content."
-    logout: Sair
+    logout: Logout
     sidebars:
-      filters: Filtros
+      filters: Filters
     pagination:
       empty: "No %{model} found"
       one: "Showing <b>1</b> %{model}"
       one_page: "Showing <b>todos(as) os(as) %{n}</b> %{model}"
       multiple: "Viewing %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> for a total of <b>%{total}</b>"
       entry:
-        one: registro
-        other: registros
-    any: Qualquer
+        one: record
+        other: records
+    any: Any
     blank_slate:
-      content: "There are %{resource_name} yet."
+      content: "There are no %{resource_name} yet."
       link: "Create"

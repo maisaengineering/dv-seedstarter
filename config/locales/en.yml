@@ -389,7 +389,7 @@ en:
         subtitle: "This is the last step to make the difference and become part of this project."
         title: "Fill in and review your data"
         choose_payment: "Checkout securely with Paypal"
-        choose_credit_card: "Credit Card"
+        choose_credit_card: "Your payment information is managed securely by Paypal, and is never shared."
         choose_boleto: "Billet Banking"
         you_are_about_html: "You are about to become part of the %{link} story."
     create:
