@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user, :replace_locale, :namespace,
                 :fb_admins, :has_institutional_videos?, :institutional_video
   before_filter :set_locale
-  before_filter :detect_locale
+  before_filter :detect_locale  
 
   # TODO: Change this way to get the opendata
   before_filter do

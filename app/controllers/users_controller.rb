@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   inherit_resources
   actions :show, :update
   can_edit_on_the_spot
-  before_filter :can_update_on_the_spot?, :only => :update_attribute_on_the_spot
+  before_filter :can_update_on_the_spot?, :only => :update_attribute_on_the_spot  
   respond_to :json, :only => [:backs, :projects, :request_refund]
   def show
     show!{
