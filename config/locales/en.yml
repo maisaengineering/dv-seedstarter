@@ -575,6 +575,8 @@ en:
         comments: Comments
         credits: Credits
         settings: Settings
+      user_social:
+        email: "Send this user an email"	  
     backs:
       anonymous: "Anonymous back."
       no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time!"
@@ -603,7 +605,7 @@ en:
       name_tooltip: "Click here to fill your name..."
     projects:
       no_projects: "%{name} haven't started any project on Seedstarter"
-      no_projects_current_user_html: "You haven't submitted any project to Seedstarter yet."
+      no_projects_current_user_html: "You haven't submitted any project to Seedstarter yet. To submit a project, you must be a student or researcher with a university or accredited research organisation."
       title: "%{name}'s projects"
       title_current_user: "My projects"
   users_mailer:
