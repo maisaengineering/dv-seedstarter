@@ -7,7 +7,7 @@
         #review_text          
           - if @backer.reward
             .review_content
-              = t('.review_with_reward_html', :value => @backer.display_value, :reward => '+XXXXXXX+')
+              = t('.review_with_reward_html', :value => @backer.display_value)
             .reward
               = @backer.reward.description
               .icon-rewards
@@ -62,7 +62,7 @@
                   = link_to 'javascript:void(0);', :"data-payment_method_url" => catarse_paypal_express.payment_pay_paypal_express_path(@backer), :method => :get, :class => 'payment_link' do
                     p= t('Pagar com')                
                     = image_tag 'catarse/icon-paypal.png'
-                  = image_tag 'catarse/paypal-choice.png' 
+                  = image_tag("https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif") 
                   .clearfix
                 .or
                   
