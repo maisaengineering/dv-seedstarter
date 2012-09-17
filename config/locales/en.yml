@@ -536,9 +536,9 @@ en:
     failure:
       error: "There was an error while loggin in. Please try again."
   site:
-    host: seedstarter.herokuapp.com
-    base_url: "http://seedstarter.herokuapp.com"
-    blog: "http://blog.catarse.me/"
+    host: seedstarter.com.au
+    base_url: "http://seedstarter.com.au"
+    blog: "http://blog.seedstarter.com.au/"
     email:
       contact: seedstarter.maisa@gmail.com
       payments: seedstarter.maisa@gmail.com
