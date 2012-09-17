@@ -54,13 +54,13 @@
           #payment.hide
             .title
               h1= t('.choose_payment')
-              h2= t('.Selecione abaixo uma forma de pagamento.')              
+              h2= t('.Pay securely with credit or debit card (no Paypal account required).')              
             .choose_payment
               - if defined?(CatarsePaypalExpress)
                 .cc
                   span= t('.choose_credit_card')             
                   = link_to 'javascript:void(0);', :"data-payment_method_url" => catarse_paypal_express.payment_pay_paypal_express_path(@backer), :method => :get, :class => 'payment_link' do
-                    p= t('Pagar com')                
+                    p= t(' ')                
                     = image_tag 'catarse/icon-paypal.png'
                   = image_tag("https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif") 
                   .clearfix

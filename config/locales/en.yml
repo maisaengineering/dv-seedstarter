@@ -381,22 +381,22 @@ en:
           important_html: "<p>The use of PayPal is destinated mostly for international payments. That's because you'll have only 60 days to receive an eventual refund without paying any fee.</p><p>In case you can make the regular payment through MoIP, we recommend you to do it.</p><p>But if that's not possible, don't worry: you'll always be able to receive your money back. Only, in case your refund is made more than 60 days after your payment, you'll have to pay PayPal's fee, which is 5,4% + A$0,60 per transaction.</p>"
           submit: "Proceed to PayPal's checkout"
           title: "Want to make an international payment?"
-        review_with_reward_html: "You will back with <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
-        review_without_reward_html: "You will back with <strong>%{value}</strong> but you don't want any reward for that."
+        review_with_reward_html: "You are pledging <strong>%{value}</strong> and receive the following reward: <span class='reward'>%{reward}</span>"
+        review_without_reward_html: "You are pledging <strong>%{value}</strong> but you have chosen not to receive a reward."
         submit:
           credits: "Confirm backing with credits"
           moip: "Proceed to MoIP's checkout"
         subtitle: "This is the last step to make the difference and become part of this project."
         title: "Fill in and review your data"
-        choose_payment: "How do you want to pay?"
-        choose_credit_card: "Credit Card"
+        choose_payment: "Checkout securely with Paypal"
+        choose_credit_card: "Your payment information is managed securely by Paypal, and is never shared."
         choose_boleto: "Billet Banking"
         you_are_about_html: "You are about to become part of the %{link} story."
     create:
       success: "Your project was successfully created! We'll soon contact you. Thanks a lot!"
     form:
       add_reward: "Add reward"
-      important_html: "Please notice that Seedstarter will charge 7.5% if your project is successful, and our payment gateways (MoIP and Paypal) charge a fee that varies, usually, from 4% to 5% per transaction. Add these values to your budget so that there are no surprises through your crowdfunding campaign."
+      important_html: "Please notice that Seedstarter will charge 7.5% if your project is successful, which includes fees charged by our payment gateway (Paypal). Add this values to your budget so that there are no surprises through your crowdfunding campaign."
       project_warning:
         content_html: "Want to have your project selected? Don't forget to read %{link}."
         help_link: "our guide"
@@ -454,7 +454,7 @@ en:
       without_city: "A project in %{category_name}, by %{author}"
       with_city: "A project in %{category_name}, in %{city}, by %{author}"
     project_updates:
-      empty: "This project didn't have updates yet. But wait and see =D"
+      empty: "This project doesn't have updates yet."
       submit: "Send update"
       comment: "Update text"
       title: "Title of the update"
@@ -575,6 +575,8 @@ en:
         comments: Comments
         credits: Credits
         settings: Settings
+      user_social:
+        email: "Send this user an email"	  
     backs:
       anonymous: "Anonymous back."
       no_backs: "%{name} haven't backed any project yet. But we know it's just a matter of time!"
@@ -603,7 +605,7 @@ en:
       name_tooltip: "Click here to fill your name..."
     projects:
       no_projects: "%{name} haven't started any project on Seedstarter"
-      no_projects_current_user_html: "You haven't submitted any project to Seedstarter yet."
+      no_projects_current_user_html: "You haven't submitted any project to Seedstarter yet. To submit a project, you must be a student or researcher with a university or accredited research organisation."
       title: "%{name}'s projects"
       title_current_user: "My projects"
   users_mailer:
