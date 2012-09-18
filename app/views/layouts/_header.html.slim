@@ -10,7 +10,7 @@
   nav.menu
     = link_to t('layouts.header.help'), faq_path
     - if current_user
-      = link_to '#', class: 'my_profile_link' do
+      = link_to '#', class: 'my_profile_link' do        
         = image_tag(current_user.display_image, :size => "30x30", :class => 'profile_picture')
         span.current_user_name= t('layouts.header.account')
         = image_tag('dropdown.png', :class => 'dropdown_arrow')
