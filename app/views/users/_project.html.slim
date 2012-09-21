@@ -1,10 +1,11 @@
 script type="text/template" id="user_projects_template"
   ul.collection_list
     #advertisements style="background-color: #EDEDED; width: 240px; height: 175px; float:right; overflow:hidden;"      
-      =Advertisement.first.title
-      br
-      br
-      =Advertisement.first.body
+      -if !Advertisement.first.nil?
+        =Advertisement.first.title
+        br
+        br
+        =Advertisement.first.body
 
 script type="text/template" id="empty_user_project_template"
   - if current_user != @user
