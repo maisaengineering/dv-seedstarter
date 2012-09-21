@@ -1,5 +1,10 @@
 script type="text/template" id="user_projects_template"
   ul.collection_list
+    #advertisements style="background-color: #EDEDED; width: 240px; height: 175px; float:right; overflow:hidden;"      
+      =Advertisement.first.title
+      br
+      br
+      =Advertisement.first.body
 
 script type="text/template" id="empty_user_project_template"
   - if current_user != @user
@@ -46,10 +51,10 @@ script type="text/template" id="user_project_template"
           p= t('projects.project.backed')
         li
           h6 <%= pledged %>
-          p= t('projects.project.reached')
+          p= t('projects.project.reached')    
     - if current_user == @user
       .tell_about
         p= t('tell_about_this_project')
         ul
           li= link_to image_tag('catarse/facebook_black_icon.png'), "http://www.facebook.com/sharer.php?u=<%= encodeURIComponent(full_uri) %>&t=#{t('share_my_projects')}<%= encodeURIComponent(name) %>".html_safe, :target => '_blank'
-          li= link_to image_tag('catarse/twitter_black_icon.png'), "http://twitter.com/share?text=#{t('share_my_projects')}<%= encodeURIComponent(name) %>&url=<%= encodeURIComponent(full_uri) %>".html_safe, :target => '_blank'
+          li= link_to image_tag('catarse/twitter_black_icon.png'), "http://twitter.com/share?text=#{t('share_my_projects')}<%= encodeURIComponent(name) %>&url=<%= encodeURIComponent(full_uri) %>".html_safe, :target => '_blank'        

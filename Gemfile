@@ -21,6 +21,8 @@ gem 'dalli'
 gem 'jquery-rails'
 gem 'slim'
 gem 'slim-rails'
+gem 'haml'
+gem 'haml-rails'
 
 # Authentication and Authorization
 gem 'omniauth', "~> 1.1.0"

@@ -63,7 +63,7 @@
       .clearfix
       #user_profile_content
         #user_backed_projects.content
-        #user_created_projects.content
+        #user_created_projects.content          
         - if can? :manage, @user
           #user_settings.content.hide
             = render 'current_user_fields'
@@ -95,9 +95,10 @@
                         = t('credits.index.refunded')
                       - else
                         - if can? :request_refund, credit
-                          = link_to t('credits.index.request_refund'), "#request_refund/#{credit.id}", :class => 'link_project'
+                          = link_to t('credits.index.request_refund'), "#request_refund/#{credit.id}", :class => 'link_project'                    
             .bootstrap-alert
               .alert.alert-info
                 = t('credits.index.important_html')
+                                
       #loading= image_tag "loading.gif"
     .clearfix
