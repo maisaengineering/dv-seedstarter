@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Title:
+  = @advertisement.title
+%p
+  %b Body:
+  = @advertisement.body
+
+= link_to 'Edit', edit_advertisement_path(@advertisement)
+\|
+= link_to 'Back', advertisements_path

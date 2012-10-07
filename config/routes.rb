@@ -1,4 +1,6 @@
 Catarse::Application.routes.draw do
+  resources :advertisements
+
   devise_for :users, :controllers => {:registrations => "registrations", :passwords => "passwords"} do
     get "/login" => "devise/sessions#new"
   end

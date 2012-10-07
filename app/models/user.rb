@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :encryptable, :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable#, :validatable
+         :recoverable, :rememberable, :trackable#, :confirmable#, :validatable
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email,
@@ -157,7 +157,8 @@ class User < ActiveRecord::Base
   end
 
   def display_image
-    gravatar_url || image_url || '/assets/user.png'
+    #raise '/assets/user.png'.inspect 
+    gravatar_url || image_url || '/assets/default.png'
   end
 
   def total_backs
@@ -246,6 +247,6 @@ class User < ActiveRecord::Base
   # Returns a Gravatar URL associated with the email parameter
   def gravatar_url
     return unless email
-    "http://gravatar.com/avatar/#{Digest::MD5.new.update(email)}.jpg?default=#{image_url or "#{I18n.t('site.base_url')}/assets/user.png"}"
+    "http://gravatar.com/avatar/#{Digest::MD5.new.update(email)}.jpg?default=#{image_url or "http://www.large-icons.com/stock-icons/large-user/unknown_person-icon.gif"}"
   end
 end
