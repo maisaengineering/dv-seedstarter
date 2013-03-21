@@ -5,9 +5,11 @@ ActiveAdmin.setup do |config|
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "Catarse"
+  config.site_title = "eChallenge Seedstarter Admin"
 
+  ActiveAdmin.register CuratedPage, :as => "Uni Ad"
 
+  
   # == Default Namespace
   #
   # Set the default namespace each administration resource

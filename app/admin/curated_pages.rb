@@ -1,5 +1,6 @@
-ActiveAdmin.register CuratedPage do
-  controller.authorize_resource
+ActiveAdmin.register CuratedPage, :as => "Ad link" do
+
+  controller.authorize_resource :class => CuratedPage
   scope :visible
   scope :not_visible
 

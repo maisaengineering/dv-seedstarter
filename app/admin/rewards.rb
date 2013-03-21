@@ -1,4 +1,7 @@
 ActiveAdmin.register Reward do
+  menu false
+
+
   controller.authorize_resource
 
   index do

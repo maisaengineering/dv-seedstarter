@@ -6,7 +6,7 @@ ActiveAdmin::Dashboards.build do
       li link_to 'Highest backing users', most_backed_report_path
       li link_to 'All confirmed backers', all_confirmed_backers_report_path
       li link_to 'All project owners', all_projects_owner_report_path
-      li link_to 'All emails to newsletter', all_emails_to_newsletter_path
+      li link_to 'All emails to users', all_emails_to_newsletter_path
     end
   end
 
