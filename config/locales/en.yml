@@ -2,7 +2,7 @@ en:
   or: or
   newsletter_ok_header: "You are subscribed to the newsletter!"
   newsletter_ok_body: "Your email is now in our newsletter list, thanks for subscribing!"
-  newsletter_error_header: "Woops! There was an error."
+  newsletter_error_header: "Whoops! There was an error."
   newsletter_error_body: "Your email could not be added to our newsletter list, please try again later!"
   views:
     pagination:
@@ -404,8 +404,8 @@ en:
       rewards_title: Rewards
       submit: "Submit project"
     index_header:
-      subtitle_html: "Help fund science research projects collaboratively and become part of something bigger."
-      title: "Fund research for a better tomorrow."
+      subtitle_html: "You can support entrepreneurs in the Adelaide University ZEN eChallenge business planning competition."
+      title: "Get behind Adelaide next entrepreneurs."
     new:
       subtitle: "Let's make this happen!"
       title: "Submit your project"

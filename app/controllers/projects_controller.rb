@@ -32,7 +32,7 @@ class ProjectsController < ApplicationController
         project_ids = collection_projects.map{|p| p.id }
         project_ids << @recommended_project.id if @recommended_project
 
-        @expiring = Project.expiring_for_home(project_ids)
+        #@expiring = Project.expiring_for_home(project_ids)
         @recent = Project.recent_for_home(project_ids)
 
         @blog_posts = Blog.fetch_last_posts.inject([]) do |total,item| 
