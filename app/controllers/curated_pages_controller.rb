@@ -3,7 +3,7 @@ class CuratedPagesController < ApplicationController
   load_and_authorize_resource
 
   def index
-    @curated_pages = curated_pages.all
+    @curated_pages = CuratedPage.all
   end
 
   def show

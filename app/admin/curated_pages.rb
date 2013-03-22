@@ -1,4 +1,4 @@
-ActiveAdmin.register CuratedPage, :as => "Ad link" do
+ActiveAdmin.register CuratedPage, :as => "Ad" do
 
   controller.authorize_resource :class => CuratedPage
   scope :visible
@@ -11,7 +11,7 @@ ActiveAdmin.register CuratedPage, :as => "Ad link" do
     default_actions
   end
 
-  form :partial => "form"
+  #form :partial => "form", :class => CuratedPage
   # form :html => {:multipart => true} do |f|
   #   f.inputs do
   #     f.input :name

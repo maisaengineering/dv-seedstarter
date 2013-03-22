@@ -1,4 +1,4 @@
-ActiveAdmin.register ProjectsCuratedPage, :as =>  "Project ad links" do
+ActiveAdmin.register ProjectsCuratedPage, :as =>  "Project ads" do
 
   index do
     column :project do |pcp|

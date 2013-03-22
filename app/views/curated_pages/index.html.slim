@@ -1,5 +1,9 @@
-h1= t('.title')
-- unless @curated_pages.empty?
-  ul
-    - @curated_pages.each do |curated_page|
-      li= link_to curated_page.name, curated_page
+#page_content
+  .container
+    .curated_content
+		h1= t('.title')
+		- unless @curated_pages.empty?
+		  ul
+		    - @curated_pages.each do |curated_page|
+		      li= link_to curated_page.name, curated_page
+  .clearfix

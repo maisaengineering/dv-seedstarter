@@ -407,7 +407,7 @@ en:
       subtitle_html: "Help fund science research projects collaboratively and become part of something bigger."
       title: "Fund research for a better tomorrow."
     new:
-      subtitle: "The time to make it happen is now! We really want to know what you're up to..."
+      subtitle: "Let's make this happen!"
       title: "Submit your project"
     pending:
       can_finish: "Can finish?"
@@ -467,7 +467,7 @@ en:
       success: "Your project was successfully sent! We'll soon contact you. Thanks a lot!"
     show:
       rejected: "This project was not selected to participate on Seedstarter. Maybe next time!"
-      waiting: "This project is waiting for approval and soon we'll know if it will go online on Seedstarter."
+      waiting: "This project is waiting for approval."
       about_title: "About this project"
       menu:
         about: About
@@ -542,7 +542,7 @@ en:
     email:
       contact: seedstarter.maisa@gmail.com
       payments: seedstarter.maisa@gmail.com
-      projects: seedstarter.maisa@gmail.com
+      projects: seedstarteraus@gmail.com
       system: seedstarter.maisa@gmail.com
     facebook: "http://www.facebook.com/seedstarteraus"
     name: Seedstarter

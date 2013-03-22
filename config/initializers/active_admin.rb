@@ -7,8 +7,6 @@ ActiveAdmin.setup do |config|
   #
   config.site_title = "eChallenge Seedstarter Admin"
 
-  ActiveAdmin.register CuratedPage, :as => "Uni Ad"
-
   
   # == Default Namespace
   #
