@@ -1,7 +1,7 @@
 #encoding: utf-8
 ActiveAdmin::Dashboards.build do
 
-  section "Relatorios" do
+  section "Financial reports (click to download)" do
     ul do
       li link_to 'Highest backing users', most_backed_report_path
       li link_to 'All confirmed backers', all_confirmed_backers_report_path
@@ -9,6 +9,7 @@ ActiveAdmin::Dashboards.build do
       li link_to 'All emails to users', all_emails_to_newsletter_path
     end
   end
+
 
   # Define your dashboard sections here. Each block will be
   # rendered on the dashboard in the context of the view. So just

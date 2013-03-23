@@ -44,7 +44,7 @@ ActiveAdmin.register Backer do
               td backer.key
             end
             tr do
-              th I18n.t('activerecord.models.user')
+              th 'User'
               td link_to backer.user.name, backer.user
             end
             tr do

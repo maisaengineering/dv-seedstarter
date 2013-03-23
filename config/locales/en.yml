@@ -110,6 +110,11 @@ en:
       project: Project
       reward: Reward
   backer:
+    key: Payment key
+    value: Amount backed
+    requested_refund: Requested refund?
+    refunded: Refunded?
+    refund_request: Request a refund for this transaction
     display_confirmed_at: "%{time_ago} ago"
     reward_must_be_from_project: "must be from the same project"
     should_not_back_if_maximum_backers_been_reached: "has reached its maximum backers"
@@ -405,7 +410,7 @@ en:
       submit: "Submit project"
     index_header:
       subtitle_html: "You can support entrepreneurs in the Adelaide University ZEN eChallenge business planning competition."
-      title: "Get behind Adelaide next entrepreneurs."
+      title: "Get behind Adelaide's next entrepreneurs!"
     new:
       subtitle: "Let's make this happen!"
       title: "Submit your project"

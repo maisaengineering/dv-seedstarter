@@ -8,13 +8,13 @@ module Reports
 
           @csv = CSV.generate(:col_sep => ',') do |csv_string|
             csv_string << [
-              'Valor',
-              'Recompensa Selecionada Valor',
-              'Feito em',
-              'Projeto',
-              'Bem sucedido?',
-              'Termina em',
-              'Categoria'
+               'Value',
+               'Value of Reward selected',
+               'Date when backed',
+               'Project',
+               'Successful?',
+               'End date',
+               'Category'
             ]
 
             @backers.each do |backer|
@@ -39,11 +39,11 @@ module Reports
             # TODO: Change this later *order and names to use i18n*
             # for moment header only in portuguese.
             csv_string << [
-              'ID',
-              'Nome do apoiador',
-              'Email',
-              'Total de apoios',
-              'Valor total'
+               'ID',
+               'Name of backer',
+               'Email',
+               'Pledge count',
+               'Total backed'
             ]
 
             @users.each do |user|

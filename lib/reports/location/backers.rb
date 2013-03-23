@@ -12,9 +12,9 @@ module Reports
             # TODO: Change this later *order and names to use i18n*
             # for moment header only in portuguese.
             csv_string << [
-              'Nome do apoiador',
-              'Cidade',
-              'Estado'
+              'Supporter Name',
+              'City',
+              'State'
             ]
 
             @backers.each do |backer|

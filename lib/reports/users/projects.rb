@@ -8,14 +8,14 @@ module Reports
 
           @csv = CSV.generate(:col_sep => ',') do |csv_string|
             csv_string << [
-              'ID projeto',
-              'Nome do projeto',
-              'Projeto bem sucedido?',
-              'Nome do realizador',
-              'Email do realizador',
-              'Estado',
-              'Cidade',
-              'Telefone'
+               'Project ID',
+               'Project Name',
+               'Project successful?',
+               'Name of Project Owner',
+               'Email of Project Owner',
+               'State',
+               'City',
+               'Telephone'
             ]
 
             @collection.each do |resource|
